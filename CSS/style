@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    text-align: center;
+}
+.box{
+    position: relative;
+    background-color: bisque;
+    width: 30%;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 5px;
+    border: 2px solid black;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    flex-wrap: wrap;
+
+}
+span{
+    position: absolute;
+    right:0px;
+    top: 0px;
+    border: 1px solid;
+    margin-top: 0px; 
+    background-color: palevioletred;
+}
+p{
+    margin-top: 20px;
+
+}
